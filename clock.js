@@ -10,6 +10,7 @@ function clock() {
 
   document.getElementById('clock').innerHTML =
     hour + ':' + minute + ':' + second;
+  document.title = hour + ':' + minute + ':' + second;
   setTimeout(clock, 1000);
 }
 
